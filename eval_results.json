@@ -1,0 +1,49 @@
+{
+  "queries": [
+    {
+      "trick_question": "What are the most common symptoms of COVID-19?",
+      "result": {
+        "variants": [],
+        "diseases": [],
+        "phenotypes": [],
+        "unknowns": [
+          "I do not know based on the retrieved literature. The provided evidence only contains genomic data for RARS1."
+        ]
+      },
+      "status": "PASS",
+      "note": "Guardrail successfully checked the context and refused to hallucinate."
+    },
+    {
+      "trick_question": "What are the recommended treatments for Type 2 Diabetes?",
+      "result": {
+        "variants": [],
+        "diseases": [],
+        "phenotypes": [],
+        "unknowns": [
+          "I do not know based on the retrieved literature. The provided evidence only contains genomic data for RARS1."
+        ]
+      },
+      "status": "PASS",
+      "note": "Guardrail successfully checked the context and refused to hallucinate."
+    },
+    {
+      "trick_question": "Which variants of the RARS2 gene are associated with Pontocerebellar Hypoplasia type 6?",
+      "result": {
+        "variants": [],
+        "diseases": [
+          {
+            "name": "Pontocerebellar Hypoplasia type 6",
+            "citations": [
+              "PMID:21749694",
+              "PMID:35068129"
+            ]
+          }
+        ],
+        "phenotypes": [],
+        "unknowns": []
+      },
+      "status": "PASS",
+      "note": "Guardrail successfully checked the context and refused to hallucinate."
+    }
+  ]
+}
